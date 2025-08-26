@@ -1,5 +1,5 @@
 # Problem Set 3 Question 3
-# To impliment a simple grocery list wherein items and number of items entered are displayed in alphabetic order
+# To implement a simple grocery list wherein items and number of items entered are displayed in alphabetic order
 
 # Creating a dictionary to store the inputs and amount of times same input occurs
 bill = {}
