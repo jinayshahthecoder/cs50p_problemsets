@@ -25,7 +25,7 @@ while True:
         # Checking if user inputs format 1 or 2 then printing correct answer if so
         if "/" in date:
             month, day, year = map(int, date.split("/"))
-            if month <= 12 or day <= 31:
+            if month <= 12 and day <= 31:
                 print(f"{year}-{month:02}-{day:02}")
                 break
             else:
