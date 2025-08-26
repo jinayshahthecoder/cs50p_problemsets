@@ -1,9 +1,9 @@
 # Problem Set 3 Question 1
 # To make a fuel gauge checker by taking correct prompts from the user and returning valid output and handling errors
 
-# Making a while loop to continuously ask the user if values are incorrect
+# Making a while loop to continuously ask the user if values are correct
 while True:
-    # Checking if user input is valid then printing the valid output
+    # Checking if user input is valid
     try:
         x, y = input("Fraction: ").split("/")
         # Converting string input to integer and checking if error occurs then passing errors to 'except' conditions
@@ -19,7 +19,7 @@ while True:
             elif inTank < 1:
                 print("E")
             else:
-                print(f"{inTank:0.0f}%")
+                print(f"{inTank:.0f}%")
             break
     # Handling ValueError and ZeroDivisionError by passing the code to the while loop prompt again
     except ValueError:
