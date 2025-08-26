@@ -18,6 +18,7 @@ while True:
         # Else, adding it automatically
         else:
             bill[item] = 1
+
     # Printing the bill as commanded when EOFError occurs
     except EOFError:
         print()
