@@ -19,7 +19,7 @@ while True:
         else:
             bill[item] = 1
 
-    # Printing the bill as commanded when EOFError occurs
+    # Printing the bill as commanded when user wants list to end
     except EOFError:
         print()
         for num in sorted(bill):
