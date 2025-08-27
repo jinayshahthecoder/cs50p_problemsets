@@ -22,7 +22,5 @@ while True:
                 print(f"{inTank:.0f}%")
             break
     # Handling ValueError and ZeroDivisionError by passing the code to the while loop prompt again
-    except ValueError:
-        pass
-    except ZeroDivisionError:
+    except (ValueError, ZeroDivisionError):
         pass
