@@ -1,7 +1,7 @@
 # Problem Set 5 Question 3
 # To make a unit test code for PS2Q4
 
-# Re-entering the same code as stated
+# Re-entering the same code as stated in question
 def main():
     plate = input("Plate: ")
     if is_valid(plate):
