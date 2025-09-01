@@ -3,12 +3,10 @@
 
 # Get user input of the string of tweet and initialize a list of vowels
 twitter = input("Input: ")
-vwl = ["a", "e", "i", "o", "u"]
+vwl = "aeiouAEIOU"
 
 # Create a loop to remove the vowels from the output
 print("Output: ", end="")
 for i in twitter:
-    if i in vwl:
-        continue
-    else:
+    if i not in vwl:
         print(i, end="")
