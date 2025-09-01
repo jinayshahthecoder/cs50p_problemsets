@@ -1,3 +1,7 @@
+# Problem Set 5 Question 1
+# To make a unit test code for PS2Q3
+
+# Re-entering the same code in block and function format as stated
 def main():
     inp = input("Input: ").strip()
     print(shorten(inp))
