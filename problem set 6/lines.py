@@ -10,7 +10,10 @@ def main():
         sys.exit("Too few command-line arguments")
     elif len(sys.argv) > 2:
         sys.exit("Too many command-line arguments")
-    lineCounter()
+    if sys.argv[1].endswith(".py"):
+        lineCounter()
+    else:
+        sys.exit("Not a python file")
 
 # Function to count the number of lines in given file by use of loops, if statements and file i/o
 def lineCounter():
