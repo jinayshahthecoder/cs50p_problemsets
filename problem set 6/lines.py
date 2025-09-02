@@ -15,7 +15,7 @@ def main():
     else:
         sys.exit("Not a python file")
 
-# Function to count the number of lines in given file by use of loops, if statements and file i/o
+# Function to count the number of lines in given file by the use of loops, if statements and file i/o
 def lineCounter():
     # Defining line count to increment in loop
     lineCount = 0
