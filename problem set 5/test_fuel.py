@@ -37,3 +37,6 @@ def test_gaugePercent():
     assert gauge(99) == "F"
     assert gauge(100) == "F"
     assert gauge(25) == "25%"
+
+if __name__ == "__main__":
+    main()
